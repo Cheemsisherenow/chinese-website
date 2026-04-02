@@ -267,7 +267,7 @@ export default function App() {
             <defs>
               <clipPath id="whiteClip"><path ref={whiteClipRef} clipRule="evenodd" d={yinYangPath} /></clipPath>
             </defs>
-            <image ref={whiteImgRef} href="/china.webp" x="10" y="10" width="240" height="240" clipPath="url(#whiteClip)" preserveAspectRatio="xMinYMin slice" style={{ opacity: 0 }} />
+            <image ref={whiteImgRef} href="/chinese-website/china.webp" x="10" y="10" width="240" height="240" clipPath="url(#whiteClip)" preserveAspectRatio="xMinYMin slice" style={{ opacity: 0 }} />
             <g ref={whiteTrackerRef}><circle cx="130" cy="70" r="20" fill="transparent" /></g>
           </svg>
 
@@ -275,7 +275,7 @@ export default function App() {
             <defs>
               <clipPath id="blackClip"><path ref={blackClipRef} clipRule="evenodd" d={yinYangPath} transform="rotate(180, 130, 130)" /></clipPath>
             </defs>
-            <image ref={blackImgRef} href="/america.webp" x="10" y="10" width="250" height="250" clipPath="url(#blackClip)" preserveAspectRatio="xMinYMin slice" style={{ opacity: 0 }} />
+            <image ref={blackImgRef} href="/chinese-website/america.webp" x="10" y="10" width="250" height="250" clipPath="url(#blackClip)" preserveAspectRatio="xMinYMin slice" style={{ opacity: 0 }} />
             <g ref={blackTrackerRef} transform="rotate(180, 130, 130)"><circle cx="130" cy="70" r="20" fill="transparent" /></g>
           </svg>
         </div>
@@ -298,7 +298,7 @@ export default function App() {
           {/* Card 1 */}
           <div className="sec2-card flex flex-col bg-white rounded-3xl p-6 shadow-xl w-full max-w-sm border border-gray-100 h-[650px]">
             <div className="w-full h-48 bg-gray-200 rounded-xl mb-4 overflow-hidden shrink-0">
-              <img src="/chronic.jpg" alt="Holistic Philosophy" className="object-cover w-full h-full" />
+              <img src="/chinese-website/chronic.jpg" alt="Holistic Philosophy" className="object-cover w-full h-full" />
             </div>
             <h3 className="text-2xl font-bold mb-3 text-gray-900 shrink-0">哲学思想 (Philosophy)</h3>
             
@@ -316,7 +316,7 @@ export default function App() {
           {/* Card 2 */}
           <div className="sec2-card flex flex-col bg-white rounded-3xl p-6 shadow-xl w-full max-w-sm border border-gray-100 h-[650px]">
             <div className="w-full h-48 bg-gray-200 rounded-xl mb-4 overflow-hidden shrink-0">
-              <img src="/MRI.webp" alt="Pattern Recognition" className="object-cover w-full h-full" />
+              <img src="/chinese-website/MRI.webp" alt="Pattern Recognition" className="object-cover w-full h-full" />
             </div>
             <h3 className="text-2xl font-bold mb-3 text-gray-900 shrink-0">诊断方法 (Diagnostic) </h3>
             
@@ -334,7 +334,7 @@ export default function App() {
           {/* Card 3 */}
           <div className="sec2-card flex flex-col bg-white rounded-3xl p-6 shadow-xl w-full max-w-sm border border-gray-100 h-[650px]">
             <div className="w-full h-48 bg-gray-200 rounded-xl mb-4 overflow-hidden shrink-0">
-              <img src="/med.jpg" alt="Natural Therapies" className="object-cover w-full h-full" />
+              <img src="/chinese-website/med.jpg" alt="Natural Therapies" className="object-cover w-full h-full" />
             </div>
             <h3 className="text-2xl font-bold mb-3 text-gray-900 shrink-0"> 西医治疗 (Western Treatments) </h3>
             
@@ -370,7 +370,7 @@ export default function App() {
           {/* Card 1 */}
           <div className="sec3-card flex flex-col bg-white rounded-3xl p-6 shadow-xl w-full max-w-sm border border-gray-100 h-[650px]">
             <div className="w-full h-48 bg-gray-200 rounded-xl mb-4 overflow-hidden shrink-0">
-              <img src="/yinyan.jpg" alt="Holistic Philosophy" className="object-cover w-full h-full" />
+              <img src="/chinese-website/yinyan.jpg" alt="Holistic Philosophy" className="object-cover w-full h-full" />
             </div>
             <h3 className="text-2xl font-bold mb-3 text-gray-900 shrink-0">哲学思想 (Philosophy) </h3>
             
@@ -388,7 +388,7 @@ export default function App() {
           {/* Card 2 */}
           <div className="sec3-card flex flex-col bg-white rounded-3xl p-6 shadow-xl w-full max-w-sm border border-gray-100 h-[650px]">
             <div className="w-full h-48 bg-gray-200 rounded-xl mb-4 overflow-hidden shrink-0">
-              <img src="/pulse.webp" alt="Pattern Recognition" className="object-cover w-full h-full" />
+              <img src="/chinese-website/pulse.webp" alt="Pattern Recognition" className="object-cover w-full h-full" />
             </div>
             <h3 className="text-2xl font-bold mb-3 text-gray-900 shrink-0">诊断方法 (Diagnostic) </h3>
             
@@ -406,7 +406,7 @@ export default function App() {
           {/* Card 3 */}
           <div className="sec3-card flex flex-col bg-white rounded-3xl p-6 shadow-xl w-full max-w-sm border border-gray-100 h-[650px]">
             <div className="w-full h-48 bg-gray-200 rounded-xl mb-4 overflow-hidden shrink-0">
-              <img src="/TCM.jpg" alt="Natural Therapies" className="object-cover w-full h-full" />
+              <img src="/chinese-website/TCM.jpg" alt="Natural Therapies" className="object-cover w-full h-full" />
             </div>
             <h3 className="text-2xl font-bold mb-3 text-gray-900 shrink-0"> 中医治疗 (TCM Treatments) </h3>
             
@@ -439,7 +439,7 @@ export default function App() {
           {/* LEFT SIDE: Tech Image with AI Scanner Animation */}
           <div className="sec4-img-container relative w-full lg:w-1/2 h-[400px] lg:h-[600px] rounded-[3rem] overflow-hidden shadow-2xl border border-gray-200 bg-white">
             {/* Replace with an image of sensors, biometric data, or medical AI */}
-            <video autoPlay loop muted playsInline src="/chron.mp4" alt="Biometric Sensor Tech" className="object-cover w-full h-full opacity-90" />
+            <video autoPlay loop muted playsInline src="/chinese-website/chron.mp4" alt="Biometric Sensor Tech" className="object-cover w-full h-full opacity-90" />
             
             {/* Dark/Blue Overlay for a tech vibe */}
             <div className="absolute inset-0 bg-blue-900/10 mix-blend-multiply"></div>
