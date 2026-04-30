@@ -300,14 +300,14 @@ export default function App() {
             <div className="w-full h-48 bg-gray-200 rounded-xl mb-4 overflow-hidden shrink-0">
               <img src="/chinese-website/chronic.jpg" alt="Holistic Philosophy" className="object-cover w-full h-full" />
             </div>
-            <h3 className="text-2xl font-bold mb-3 text-gray-900 shrink-0">哲学思想 (Philosophy)</h3>
+            <h3 className="text-5xl font-bold mb-3 text-gray-900 shrink-0">哲学思想 (Philosophy)</h3>
             
             {/* Scrollable Text Container */}
             <div className="flex-1 overflow-y-auto pr-3 scrollbar-thin scrollbar-thumb-gray-200 hover:scrollbar-thumb-gray-300">
-              <p className="text-gray-600 leading-relaxed mb-4 text-sm">
+              <p className="text-gray-600 leading-relaxed mb-4 text-4xl">
                 <span className="font-bold text-gray-900">中文:</span> 西医将疼痛视为一种生理信号，通常与炎症、组织损伤或神经系统的功能障碍有关。其目标是定位具体的病灶并进行干预。
               </p>
-              <p className="text-gray-600 leading-relaxed text-sm">
+              <p className="text-gray-600 leading-relaxed text-4xl">
                 <span className="font-bold text-gray-900">English:</span> Western medicine views pain as a physiological signal, usually linked to Inflammation, tissue damage, or dysfunction of the Nervous System. The goal is to locate the specific lesion and intervene.
               </p>
             </div>
@@ -318,14 +318,14 @@ export default function App() {
             <div className="w-full h-48 bg-gray-200 rounded-xl mb-4 overflow-hidden shrink-0">
               <img src="/chinese-website/MRI.webp" alt="Pattern Recognition" className="object-cover w-full h-full" />
             </div>
-            <h3 className="text-2xl font-bold mb-3 text-gray-900 shrink-0">诊断方法 (Diagnostic) </h3>
+            <h3 className="text-5xl font-bold mb-3 text-gray-900 shrink-0">诊断方法 (Diagnostic) </h3>
             
             {/* Scrollable Text Container */}
             <div className="flex-1 overflow-y-auto pr-3 scrollbar-thin scrollbar-thumb-gray-200 hover:scrollbar-thumb-gray-300">
-              <p className="text-gray-600 leading-relaxed mb-4 text-sm">
+              <p className="text-gray-600 leading-relaxed mb-4 text-4xl">
                 <span className="font-bold text-gray-900">中文:</span> 通过影像学(MRI、CT)观察结构损伤，或通过神经传导检查来评估神经系统的受损程度。
               </p>
-              <p className="text-gray-600 leading-relaxed text-sm">
+              <p className="text-gray-600 leading-relaxed text-4xl">
                 <span className="font-bold text-gray-900">English:</span> Focuses on Quantitative Analysis. It uses imaging (MRI, CT) to observe structural damage or nerve conduction studies to evaluate the degree of impairment in the Nervous System.
               </p>
             </div>
@@ -336,17 +336,17 @@ export default function App() {
             <div className="w-full h-48 bg-gray-200 rounded-xl mb-4 overflow-hidden shrink-0">
               <img src="/chinese-website/med.jpg" alt="Natural Therapies" className="object-cover w-full h-full" />
             </div>
-            <h3 className="text-2xl font-bold mb-3 text-gray-900 shrink-0"> 西医治疗 (Western Treatments) </h3>
+            <h3 className="text-5xl font-bold mb-3 text-gray-900 shrink-0"> 西医治疗 (Western Treatments) </h3>
             
             {/* Scrollable Text Container */}
             <div className="flex-1 overflow-y-auto pr-3 scrollbar-thin scrollbar-thumb-gray-200 hover:scrollbar-thumb-gray-300">
-              <p className="text-gray-600 leading-relaxed mb-4 text-sm">
+              <p className="text-gray-600 leading-relaxed mb-4 text-4xl">
                 <span className="font-bold text-gray-900">中文:</span><br/>
                 <strong>药物:</strong> 使用非甾体抗炎药 (e.g. NSAIDs) 减少炎症，或使用神经阻滞剂。<br/>
                 <strong>手术:</strong> 修复物理损伤。<br/>
                 <strong>物理治疗:</strong> 侧重于肌肉强化和功能恢复。
               </p>
-              <p className="text-gray-600 leading-relaxed text-sm">
+              <p className="text-gray-600 leading-relaxed text-4xl">
                 <span className="font-bold text-gray-900">English:</span><br/>
                 <strong>Medication:</strong> Uses medicine like NSAIDs to reduce Inflammation or nerve blockers to interrupt pain signals.<br/>
                 <strong>Surgery:</strong> To repair physical or structural damage.<br/>
@@ -372,14 +372,14 @@ export default function App() {
             <div className="w-full h-48 bg-gray-200 rounded-xl mb-4 overflow-hidden shrink-0">
               <img src="/chinese-website/yinyan.jpg" alt="Holistic Philosophy" className="object-cover w-full h-full" />
             </div>
-            <h3 className="text-2xl font-bold mb-3 text-gray-900 shrink-0">哲学思想 (Philosophy) </h3>
+            <h3 className="text-5xl font-bold mb-3 text-gray-900 shrink-0">哲学思想 (Philosophy) </h3>
             
             {/* Scrollable Text Container */}
             <div className="flex-1 overflow-y-auto pr-3 scrollbar-thin scrollbar-thumb-gray-200 hover:scrollbar-thumb-gray-300">
-              <p className="text-gray-600 leading-relaxed mb-4 text-sm">
+              <p className="text-gray-600 leading-relaxed mb-4 text-4xl">
                 <span className="font-bold text-gray-900">中文:</span> 中医认为疼痛是身体内部阴阳失衡 (Yin-Yang Imbalance) 的表现。核心理论认为“不通则痛”，即身体的能量平衡被打破，导致了病理状态。
               </p>
-              <p className="text-gray-600 leading-relaxed text-sm">
+              <p className="text-gray-600 leading-relaxed text-4xl">
                 <span className="font-bold text-gray-900">English:</span> TCM views pain as a manifestation of Yin-Yang Imbalance within the body. A core theory is "where there is blockage, there is pain," meaning that when the body's energy balance is disrupted, a pathological state occurs.
               </p>
             </div>
@@ -390,14 +390,14 @@ export default function App() {
             <div className="w-full h-48 bg-gray-200 rounded-xl mb-4 overflow-hidden shrink-0">
               <img src="/chinese-website/pulse.webp" alt="Pattern Recognition" className="object-cover w-full h-full" />
             </div>
-            <h3 className="text-2xl font-bold mb-3 text-gray-900 shrink-0">诊断方法 (Diagnostic) </h3>
+            <h3 className="text-5xl font-bold mb-3 text-gray-900 shrink-0">诊断方法 (Diagnostic) </h3>
             
             {/* Scrollable Text Container */}
             <div className="flex-1 overflow-y-auto pr-3 scrollbar-thin scrollbar-thumb-gray-200 hover:scrollbar-thumb-gray-300">
-              <p className="text-gray-600 leading-relaxed mb-4 text-sm">
+              <p className="text-gray-600 leading-relaxed mb-4 text-4xl">
                 <span className="font-bold text-gray-900">中文:</span> 侧重于辨证论治。医生会观察舌象和脉象，判断疼痛的性质。例如，如果疼痛固定且像针刺一样，通常被诊断为气滞血瘀——即气 (Qi) 的运行不畅导致血液停滞，从而引发慢性疼痛。
               </p>
-              <p className="text-gray-600 leading-relaxed text-sm">
+              <p className="text-gray-600 leading-relaxed text-4xl">
                 <span className="font-bold text-gray-900">English:</span> Practitioners observe the tongue and pulse to determine the nature of the pain. For example, sharp, fixed pain is often diagnosed as Qi Stagnation and Blood Stasis—where the flow of Qi is obstructed, leading to blood stagnation and chronic pain.
               </p>
             </div>
@@ -408,17 +408,17 @@ export default function App() {
             <div className="w-full h-48 bg-gray-200 rounded-xl mb-4 overflow-hidden shrink-0">
               <img src="/chinese-website/TCM.jpg" alt="Natural Therapies" className="object-cover w-full h-full" />
             </div>
-            <h3 className="text-2xl font-bold mb-3 text-gray-900 shrink-0"> 中医治疗 (TCM Treatments) </h3>
+            <h3 className="text-5xl font-bold mb-3 text-gray-900 shrink-0"> 中医治疗 (TCM Treatments) </h3>
             
             {/* Scrollable Text Container */}
             <div className="flex-1 overflow-y-auto pr-3 scrollbar-thin scrollbar-thumb-gray-200 hover:scrollbar-thumb-gray-300">
-              <p className="text-gray-600 leading-relaxed mb-4 text-sm">
+              <p className="text-gray-600 leading-relaxed mb-4 text-4xl">
                 <span className="font-bold text-gray-900">中文:</span><br/>
                 <strong>针灸:</strong> 通过在特定穴位施针，调理气的流动，激发人体自愈能力。现代研究认为针灸可以刺激神经系统释放内啡肽（天然镇痛剂）。<br/>
                 <strong>中药:</strong> 使用活血化瘀的草药来解决气滞血瘀的问题。<br/>
                 <strong>推拿与拔罐:</strong> 旨在疏通经络，缓解因阴阳失衡导致的长期酸痛。
               </p>
-              <p className="text-gray-600 leading-relaxed text-sm">
+              <p className="text-gray-600 leading-relaxed text-4xl">
                 <span className="font-bold text-gray-900">English:</span><br/>
                 <strong>Acupuncture:</strong> By inserting needles into specific acupoints, it regulates the flow of Qi and stimulates the body's self-healing. Modern research suggests acupuncture triggers the Nervous System to release endorphins (natural painkillers).<br/>
                 <strong>Herbal Medicine:</strong> Uses formulas that "invigorate blood" to resolve Qi Stagnation and Blood Stasis.<br/>
